@@ -1,5 +1,5 @@
  
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
  #about{
     width: 100vw;
@@ -34,13 +34,13 @@
     justify-content: flex-start;
 }
 #about-heading h2{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lora', serif;
     margin-top: 5vh;
     text-align: center;
     font-size: 3rem;
 }
 #about-right p{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lora', serif;
     font-size: 1.5rem;
     margin-top:10vh;
     text-align: center;

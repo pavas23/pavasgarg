@@ -7,7 +7,7 @@ export default function About(){
         <>
         <div id = "about">
             <div id = "about-left">
-            <img src={require("./pavas-profilepic.jpeg")} />
+            <img src={require("./images/pavas-profilepic.jpeg")} />
             </div>
             <div id = "about-right">
                 <div id = "about-heading">
@@ -16,7 +16,8 @@ export default function About(){
                 <div id = "about-para">
                     <p>
                         Hi, I'm Computer Science undergrad at BITS Pilani. I am interested in full stack
-                        web development and I like to solve problems which require logic.
+                        web development which fascinates me and I am motivated towards learning new Skills
+                        and technologies.
                     </p>
                 </div>
             </div>
@@ -24,3 +25,4 @@ export default function About(){
         </>
     );
 }
+

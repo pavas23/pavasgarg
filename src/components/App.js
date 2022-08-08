@@ -2,6 +2,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import "../css/app.css"
 import About from "./About";
+import Skills from "./Skills";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Skills/>
     </>
   );
 }
