@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+main{
+    margin: 0;
+    overflow-y: scroll;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tsparticles canvas{
+    animation: bg 20s ease-in-out infinite alternate;   
+}
+
+#icons{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    color: white;
+}
+#icons a {
+    color: white;
+}
+#icons a i{
+    margin: 2vh;
+}
+#icons a i:hover{
+    color:black;
+}
+
+#name-pavas h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6rem;
+    color: white;
+}
+
+@keyframes bg {
+    0%{
+        background: linear-gradient(to right bottom, #ff2fe9, #ff24b1, #ff4982, #ff6f60, #ff8e4e, #faa345, #f0b842, #e3cc48, #cadb58, #aee971, #8df590, #64ffb3);
+    }
+    25%{
+        background-image: linear-gradient(to right bottom, #ca398d, #c03a9c, #b13eab, #9e45ba, #844cc7, #6e63dd, #4e78f0, #008bfe, #00acff, #00c5f0, #00d8bd, #42e483);
+    }
+    50%{
+        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    75%{
+        background-color:linear-gradient(to right bottom, #ff7c2f, #ff5f5f, #fe518c, #dd58b4, #a768d0, #847ee5, #5791f2, #00a1f5, #00befe, #00d8f3, #00edd7, #64ffb3);
+    }
+    100%{
+        background-image: linear-gradient(to right bottom, #ffde2f, #ffa541, #ff7065, #e24f85, #a04796, #7f59ac, #5368b8, #0073b8, #0098d2, #00bcdf, #00dee0, #64ffda);
+    }
+    
+}
