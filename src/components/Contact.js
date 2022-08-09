@@ -17,8 +17,13 @@ export default function Contact() {
                         <a href="http://twitter.com" target="_blank"> Twitter &nbsp;&nbsp;</a>|&nbsp;&nbsp;
                         <a href="http://facebook.com" target="_blank"> Facebook&nbsp;&nbsp;</a>&nbsp;&nbsp;
                     </div>
+                    <div id="copyright">
+                    © 2022 Pavas Garg
+                    </div>
                 </div>
             </div>
         </>
     );
 }
+
+

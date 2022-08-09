@@ -15,7 +15,7 @@ export default function Projects() {
                             <img src={require("./images/macbook img.png")} />
                         </div>
                         <div className="projectex-heading">
-                            <h4>CloudNote</h4>
+                            <h4><a href = "https://github.com/pavas23/CloudNote" target="_blank">CloudNote</a></h4>
                             CloudNote is a full stack <b>MERN</b> web app which requires <b>authentication</b> and stores the user data in Mongo DB database after password hashing using <b>bcryptjs</b>. It allows you to store your notes on cloud. Your notes are accessible from any device that can access the Internet.
                         </div>
                     </div>
@@ -25,7 +25,7 @@ export default function Projects() {
                             <img src={require("./images/ipad.png")} />
                         </div>
                         <div className="projectex-heading">
-                            <h4>Chat Engine</h4>
+                            <h4><a href = "https://github.com/pavas23/ChatEngine" target="_blank">Chat Engine</a></h4>
                             Chat Engine is a real time chatting web app made with <b>socket.IO</b> which allows two way connection between client and server. Each user is on <b>client server</b> which is connected to main server through which communication takes place among users.This is a <b>scalable app</b> which can be extended to multiple number of users.
                         </div>
                     </div>

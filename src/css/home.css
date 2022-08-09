@@ -13,6 +13,7 @@ main{
 }
 #tsparticles canvas{
     animation: bg 20s ease-in-out infinite alternate;   
+    z-index: -1;
 }
 
 #icons{

@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 #contact-links a{
@@ -38,9 +39,29 @@
 }
 
 #contact-links a:hover{
-    font-weight: bold;
+    color: grey;
 }
 
 #contact-links{
     margin-top: 2vh;
+}
+#copyright{
+    font-size: 1rem;
+    margin-top: 4vh;
+}
+
+@media screen and (max-width:1025px){
+    #contact{
+        height: 22vh;
+    }
+}
+@media screen and (max-width:830px){
+    #contact{
+        height: 25vh;
+    }
+}
+@media screen and (max-width:610px){
+    #contact-content{
+        font-size: 1rem;
+    }
 }

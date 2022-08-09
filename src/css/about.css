@@ -51,3 +51,26 @@
 
 }
 
+@media screen and (max-width:920px){
+    #about{
+        height: 40vh;
+    }
+    #about-left{
+        width: 34%;
+    }
+    #about-left img{
+        margin-left: 3vw;
+        margin-top: 5vh;
+        height: 50%;
+        width: 93%;
+    }
+    #about-right{
+        width: 66%;
+    }
+    #about-para{
+        margin-top: -7vh;
+    }
+    #about-para p{
+        font-size: 1.2rem;
+    }
+}

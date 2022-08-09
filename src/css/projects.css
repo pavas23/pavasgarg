@@ -60,9 +60,74 @@
 .projectex-heading h4{
     font-weight: bold;
 }
+.projectex-heading h4 a{
+    color: black;
+    text-decoration: none;
+}
+.projectex-heading h4 a:hover{
+    border-bottom: 2px solid black;
+    /* text-decoration: underline; */
+}
 
 .large-img{
     height: 65%;
     width: 40%;
     
+}
+
+@media screen and (max-width:920px){
+    #projects{
+        height: 60vh;
+    }
+    #projects-content{
+        margin-top: -2vh;
+    }
+    .projectex{
+        height: 66%;
+    }
+    .projectex-img img{
+        margin-top: 3vh;
+    }
+    .projectex-heading{
+        margin-top: 0;
+        font-size: 0.9rem;
+    }
+    .large-img{
+        height: 44%;
+        width: 40%;
+    }
+    .large-img img{
+        height: 71%;
+
+    }
+
+}
+@media screen and (max-width:830px){
+    #projects{
+        height: 70vh;
+    }
+    .projectex{
+        height: 74%;
+    }
+}
+@media screen and (max-width:768px){
+    .projectex{
+        height: 78%;
+    }
+}
+@media screen and (max-width:610px){
+    #projects{
+        height: 75vh;
+    }
+    .projectex{
+        height: 77%;
+    }
+    .large-img {
+        height: 34%;
+        width: 40%;
+    }
+    .large-img img {
+        height: 74%;
+    }
+
 }

@@ -27,3 +27,9 @@
     font-weight: bold;
     color: black;
 }
+
+@media screen and (max-width:920px){
+    .navbar-nav{
+        width: 100vw !important;
+    }
+}

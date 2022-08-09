@@ -114,3 +114,29 @@
     margin-right: 10vh;
 }
 
+
+@media screen and (max-width:1025px){
+    #skills-heading{
+        margin-top: -2vh;
+    }
+    #skills-icons{
+        margin-top: -12vh;
+    }
+    .skill-container{
+        margin-right: 0;
+        width: 35vw;
+    }
+    #skills-icons img {
+        height: 6vh;
+        width: 6vh;
+    }
+    .skill-progress{
+        margin-left: 0vw;
+        height: 6vh;
+    }
+    .skill-name{
+        width: 17vw;
+    }
+
+
+}
