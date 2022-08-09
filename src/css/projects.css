@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap');
+
+
+#projects{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#projects-heading{
+    width: 100%;
+    height: 15%;
+}
+
+#projects-heading h2{
+    font-family: 'STIX Two Text', serif;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#projects-content{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.projectex{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.projectex-img img{
+    margin-top: 4vh;
+    height: 65%;
+    width: 100%;
+}
+
+.projectex-heading{
+    height: 35%;
+    margin-top: -5vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.projectex-heading h4{
+    font-weight: bold;
+}
+
+.large-img{
+    height: 65%;
+    width: 40%;
+    
+}

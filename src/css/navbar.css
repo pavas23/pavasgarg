@@ -5,6 +5,7 @@
     width: 100vw;
     height: 10vh;
     opacity: 0.7;
+    z-index: 2;
 }
 .navbar-nav{
     width: 30vw !important;
@@ -17,5 +18,12 @@
 .navbar-nav li a {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem;
+    color: black;
 }
 
+.navbar-nav li a:hover {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}

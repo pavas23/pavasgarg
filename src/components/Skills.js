@@ -1,8 +1,10 @@
 
+import { useEffect } from "react";
 import "../css/skills.css"
 
 export default function Skills() {
-
+    
+    useEffect(function(){
     var skillDivs = document.querySelectorAll('.skill-level');
     var skillSection = document.getElementById('skills');
     window.addEventListener('scroll', scrollCheck);
@@ -35,7 +37,7 @@ export default function Skills() {
         }, 25);
 
     }
-
+});
 
 
     return (
@@ -45,7 +47,6 @@ export default function Skills() {
                     <h2>Skills</h2>
                 </div>
                 <div id="skills-icons">
-
 
                     <div className="skill-container">
                         <img src="https://user-images.githubusercontent.com/97559428/182453721-489a3c5e-37b2-438a-b101-4a626abb57ed.svg" />

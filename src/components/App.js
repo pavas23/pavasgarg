@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import "../css/app.css"
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <Home/>
     <About/>
     <Skills/>
+    <Projects/>
+    <Contact/>
     </>
   );
 }

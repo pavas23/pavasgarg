@@ -64,7 +64,7 @@ export default function Home() {
                                 distance: 150,
                                 enable: true,
                                 opacity: 0.5,
-                                width: 1.5,
+                                width: 2,
                             },
                             collisions: {
                                 enable: true,
@@ -76,7 +76,7 @@ export default function Home() {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 1,
+                                speed: 1.5,
                                 straight: false,
                             },
                             number: {
@@ -84,7 +84,7 @@ export default function Home() {
                                     enable: true,
                                     area: 800,
                                 },
-                                value: 100,
+                                value: 80,
                             },
                             opacity: {
                                 value: 0.5,

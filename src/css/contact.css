@@ -1,0 +1,46 @@
+
+
+
+#contact{
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#contact-heading{
+    height: 30%;
+    width: 100%;
+}
+
+#contact-heading h2{
+    font-family: 'STIX Two Text', serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2vh;
+}
+
+#contact-content{
+    font-size: 1.3rem;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-links a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact-links a:hover{
+    font-weight: bold;
+}
+
+#contact-links{
+    margin-top: 2vh;
+}

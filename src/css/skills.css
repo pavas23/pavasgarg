@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap');
 
 #skills{
     height: 80vh;
@@ -16,7 +16,7 @@
     height: 20%;
 }
 #skills-heading h2{
-    font-family: 'Lora', serif;
+    font-family: 'STIX Two Text', serif;
     margin-top: 3vh;
     text-align: center;
     font-size: 3rem;
@@ -103,7 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Lora', serif;
+    font-family: 'STIX Two Text', serif;
 
 }
 .skill-container{
