@@ -65,3 +65,25 @@
         font-size: 1rem;
     }
 }
+@media screen and (max-width:430px){
+    #contact-heading h2{
+        font-size: 2.5rem;
+    }
+    #contact-content{
+        text-align: justify;
+        font-size: 0.8rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:375px){
+    #contact{
+        height: 30vh;
+    }
+}
+@media screen and (max-width:330px){
+    #contact{
+        height: 35vh;
+    }
+}

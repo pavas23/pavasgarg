@@ -193,7 +193,7 @@ export default function Home() {
                             "distance": 160,
                             "color": "#ffffff",
                             "opacity": 0.4,
-                            "width": 1
+                            "width": 1.5
                           },
                           "move": {
                             "enable": true,
@@ -262,10 +262,10 @@ export default function Home() {
                     <h1>Pavas Garg</h1>
                 </div>
                 <div id="icons">
-                    <a href="http://github.com" target="_blank"><i className="fa-brands fa-github fa-3x"></i></a>
-                    <a href="http://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin fa-3x"></i></a>
-                    <a href="http://twitter.com" target="_blank"><i className="fa-brands fa-twitter fa-3x"></i></a>
-                    <a href="http://facebook.com" target="_blank"><i className="fa-brands fa-facebook fa-3x"></i></a>
+                    <a href="http://github.com/pavas23" target="_blank"><i className="fa-brands fa-github fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/pavas-garg-606535223/" target="_blank"><i className="fa-brands fa-linkedin fa-3x"></i></a>
+                    <a href="https://twitter.com/PavasGarg" target="_blank"><i className="fa-brands fa-twitter fa-3x"></i></a>
+                    <a href="https://www.facebook.com/pavas.garg.1/" target="_blank"><i className="fa-brands fa-facebook fa-3x"></i></a>
                 </div>
             </main>
         </>

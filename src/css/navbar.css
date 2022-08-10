@@ -28,8 +28,26 @@
     color: black;
 }
 
-@media screen and (max-width:920px){
+@media screen and (max-width:1025px){
     .navbar-nav{
         width: 100vw !important;
     }
+}
+@media screen and (max-width:430px){
+    .navbar-collapse{
+        margin-left: -3vw;
+    }
+    .navbar-nav li a {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:375px){
+    .navbar-toggler{
+        height: 5vh;
+        padding-top: 0;
+    }
+    .navbar-collapse{
+        margin-top: -1vh;
+    }
+    
 }

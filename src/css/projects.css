@@ -74,8 +74,13 @@
     width: 40%;
     
 }
+@media screen and (max-width:1120px){
+    .projectex{
+        height: 90%;
+    }
+}
 
-@media screen and (max-width:920px){
+@media screen and (max-width:1025px){
     #projects{
         height: 60vh;
     }
@@ -83,17 +88,17 @@
         margin-top: -2vh;
     }
     .projectex{
-        height: 66%;
+        height: 75%;
     }
     .projectex-img img{
         margin-top: 3vh;
     }
     .projectex-heading{
         margin-top: 0;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .large-img{
-        height: 44%;
+        height: 51%;
         width: 40%;
     }
     .large-img img{
@@ -102,12 +107,40 @@
     }
 
 }
+
+@media screen and (max-width:920px){
+    .projectex{
+        height: 66%;
+    }
+    .projectex-heading{
+        font-size: 0.9rem;
+    }
+    .large-img{
+        height: 51%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:890px){
+    .projectex{
+        margin-top: 2.5vh;
+        height: 90%;
+    }
+}
+@media screen and (max-width:835px){
+    .projectex{
+        margin-top: 0vh;
+        height: 82%;
+    }
+}
 @media screen and (max-width:830px){
     #projects{
         height: 70vh;
     }
     .projectex{
         height: 74%;
+    }
+    .large-img{
+        height: 44%;
     }
 }
 @media screen and (max-width:768px){
@@ -130,4 +163,58 @@
         height: 74%;
     }
 
+}
+@media screen and (max-width:430px){
+    #projects{
+        height: 100vh;
+    }
+    #projects-heading h2{
+        font-size: 2.5rem;
+    }
+    #projects-content{
+        flex-wrap: wrap;
+    }
+    .projectex{
+        width: 80%;
+        height: 45%;
+    }
+    .projectex-img img{
+        height: 58%;
+    }
+    .projectex-heading{
+        font-size: 0.75rem;
+        margin-top: -4vh;
+    }
+    .large-img {
+        height: 54%;
+    }
+
+}
+@media screen and (max-width:395px){
+    #projects{
+        height: 107vh;
+    }
+}
+@media screen and (max-width:390px){
+    #projects{
+        height: 110vh;
+    }
+}
+@media screen and (max-width:375px){
+    #projects{
+        height: 112vh;
+    }
+    .projectex-heading{
+        font-size: 0.6rem;
+        margin-top: -6vh;
+    }
+    .large-img{
+        height: 60%;
+    }
+    
+}
+@media screen and (max-width:330px){
+    #projects{
+        height: 140vh;
+    }
 }

@@ -39,6 +39,7 @@ main{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 6rem;
     color: white;
+    text-align: center;
 }
 
 @keyframes bg {
@@ -58,4 +59,10 @@ main{
         background-image: linear-gradient(to right bottom, #ffde2f, #ffa541, #ff7065, #e24f85, #a04796, #7f59ac, #5368b8, #0073b8, #0098d2, #00bcdf, #00dee0, #64ffda);
     }
     
+}
+
+@media screen and (max-width:430px){
+    #name-pavas h1{
+        text-align: center;
+    }
 }
