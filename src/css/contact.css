@@ -87,3 +87,13 @@
         height: 35vh;
     }
 }
+@media screen and (max-height:600px){
+    #contact{
+        height: 40vh;
+    }
+}
+@media screen and (max-height:450px){
+    #contact{
+        height: 55vh;
+    }
+}
