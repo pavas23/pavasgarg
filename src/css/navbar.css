@@ -51,3 +51,8 @@
     }
     
 }
+@media screen and (max-height:450px){
+    .navbar{
+        height: 25vh;
+    }
+}
