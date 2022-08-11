@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pavasgarg/static/css/main.ce0e686f.css",
+    "main.css": "/pavasgarg/static/css/main.e46c4b70.css",
     "main.js": "/pavasgarg/static/js/main.393c416c.js",
     "static/media/pavas-profilepic.jpeg": "/pavasgarg/static/media/pavas-profilepic.877e234b71296e3fe486.jpeg",
     "static/media/macbook img.png": "/pavasgarg/static/media/macbook img.284df1025874e1c03193.png",
     "static/media/ipad.png": "/pavasgarg/static/media/ipad.cf174e4cd9659602c263.png",
     "index.html": "/pavasgarg/index.html",
-    "main.ce0e686f.css.map": "/pavasgarg/static/css/main.ce0e686f.css.map",
+    "main.e46c4b70.css.map": "/pavasgarg/static/css/main.e46c4b70.css.map",
     "main.393c416c.js.map": "/pavasgarg/static/js/main.393c416c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0e686f.css",
+    "static/css/main.e46c4b70.css",
     "static/js/main.393c416c.js"
   ]
 }
