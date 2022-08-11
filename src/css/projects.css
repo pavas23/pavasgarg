@@ -140,7 +140,7 @@
         height: 74%;
     }
     .large-img{
-        height: 44%;
+        height: 41%;
     }
 }
 @media screen and (max-width:768px){
@@ -218,3 +218,24 @@
         height: 140vh;
     }
 }
+@media screen and (max-height:600px){
+    #projects{
+        height: 135vh;
+    }
+}
+@media screen and (max-height:450px){
+    #projects{
+        height:185vh;
+    }
+}
+@media screen and (max-height:360px){
+    #projects{
+        height: 198vh;
+    }
+}
+@media screen and (max-height:320px){
+    #projects{
+        height: 255vh;
+    }
+}
+
