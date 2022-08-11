@@ -164,3 +164,22 @@
     }
 
 }
+@media screen and (max-height:600px){
+    #skills{
+        height: 95vh;
+    }
+}
+@media screen and (max-height:450px){
+    #skills{
+        height: 130vh;
+    }
+}
+
+@media screen and (max-height:320px){
+    #skills{
+        height: 150vh;
+    }
+    .skill-name{
+        font-size: 0.8rem;
+    }
+}
