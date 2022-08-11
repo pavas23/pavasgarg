@@ -124,3 +124,26 @@
         height: 50vh;
     }
 }
+
+@media screen and (max-height:600px){
+    #about{
+        height: 62vh;
+    }
+    #about-left img {
+        height: 78%;
+    }
+}
+@media screen and (max-height:450px){
+    #about{
+        height: 85vh;
+    }
+}
+@media screen and (max-height:320px){
+    #about{
+        height: 120vh;
+    }
+    #about-left img {
+        height: 75%;
+    }
+}
+
